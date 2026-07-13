@@ -36,4 +36,6 @@ print(d.dragatck())
 t=input("wanna attack again? (yes/no):")
 if t=="yes":
     print(d.atck())
+else:
+    print("attack kro maaaaa, yes type kro")
 print(f"{d.name} attacks the dragon again  and now dragon xp is {d.dragon}and now {d.name} is the winner!")
