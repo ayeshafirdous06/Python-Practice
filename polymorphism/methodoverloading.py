@@ -2,7 +2,7 @@
 
 #usually python doesnt support method overloading but,
 #overloading can be achieved by using default arguments or variablelength arguments
-
+"""
 class calculator():
     def ok(self,a,b):
         return a+b
@@ -11,6 +11,12 @@ class calculator():
 d=calculator()
 print(d.ok(2,3))
 print(d.ok(1,2,3))
+
+this will give error:
+    print(d.ok(2,3))
+          ~~~~^^^^^
+TypeError: calculator.ok() missing 1 required positional argument: 'c'
+"""
 
 
 class Calculator():
