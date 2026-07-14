@@ -2,6 +2,17 @@
 
 #usually python doesnt support method overloading but,
 #overloading can be achieved by using default arguments or variablelength arguments
+
+class calculator():
+    def ok(self,a,b):
+        return a+b
+    def ok(self,a,b,c):
+        return a+b+c
+d=calculator()
+print(d.ok(2,3))
+print(d.ok(1,2,3))
+
+
 class Calculator():
     def ok (self, *args):
             if len(args)==3:
